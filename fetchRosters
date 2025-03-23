@@ -1,0 +1,21 @@
+require('dotenv').config();
+const fs = require('fs');
+const fetch = require('node-fetch');
+
+const API_KEY = process.env.MFL_API_KEY;  // Fetch API key from environment variable
+const URL = `https://www45.myfantasyleague.com/2025/export?TYPE=rosters&L=63085&APIKEY=${API_KEY}&FRANCHISE=&W=&JSON=1`;
+
+async function fetchRosters() {
+  try {
+    const response = await fetch(URL);
+    const data = await response.json();
+
+    // Save the JSON data to a file
+    fs.writeFileSync('rosters.json', JSON.stringify(data, null, 2));
+    console.log("✅ Roster data saved to rosters.json");
+  } catch (error) {
+    console.error("❌ Error fetching rosters:", error);
+  }
+}
+
+fetchRosters();
