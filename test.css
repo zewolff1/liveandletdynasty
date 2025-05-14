@@ -62,6 +62,15 @@ body.bettis {
 	--bg-opacity: rgba(247, 181, 52, .05);
 	--bg-opacity-brighter: rgba(247, 181, 52, .15)
 }
+.theme-dk-pink {
+	--accent: #f542ec;
+	--accent-light: #F5BD51;
+	--accent-dark: #9E7118;
+	--accent-darker: #4a3306;
+	--accent-darkest: #352911;
+	--bg-opacity: rgba(247, 181, 52, .05);
+	--bg-opacity-brighter: rgba(247, 181, 52, .15)
+}
 
 .theme-dk-gold {
 	--accent: #b2784a;
