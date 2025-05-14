@@ -62,16 +62,6 @@ body.bettis {
 	--bg-opacity: rgba(247, 181, 52, .05);
 	--bg-opacity-brighter: rgba(247, 181, 52, .15)
 }
-.theme-dk-pink {
-	--accent: #f542ec;
-	--accent-light: #F5BD51;
-	--accent-dark: #9E7118;
-	--accent-darker: #4a3306;
-	--accent-darkest: #352911;
-	--bg-opacity: rgba(247, 181, 52, .05);
-	--bg-opacity-brighter: rgba(247, 181, 52, .15)
-}
-
 .theme-dk-gold {
 	--accent: #b2784a;
 	--accent-light: #B8835A;
@@ -113,7 +103,7 @@ body.bettis {
 }
 
 .theme-dk-blue {
-	--accent: #f542f2;
+	--accent: #f57e42;
 	--accent-light: #117DFF;
 	--accent-dark: #0738B3;
 	--bg-opacity: rgba(7, 56, 179, .05);
