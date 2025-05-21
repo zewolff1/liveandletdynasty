@@ -9594,7 +9594,7 @@ div.sub-content.editable .insertIcons {
 	}
 
 	.trade-toggle-mobile {
-		display: table-row
+		display: none
 	}
 
 	#tradeShowMyTeam,
