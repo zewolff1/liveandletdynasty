@@ -9593,18 +9593,7 @@ div.sub-content.editable .insertIcons {
 		float: left
 	}
 
-	.trade-toggle-mobile {
-		display: none
-	}
 
-	#tradeShowMyTeam,
-	.div-wrap-trade-table.lastTable {
-		display: none
-	}
-
-	.trade-toggle-mobile input {
-		margin-top: 0
-	}
 
 	.div-wrap-trade-table .mobile-wrap {
 		padding: .313rem
